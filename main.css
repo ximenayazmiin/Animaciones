@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.phone{
+    position: relative;
+    border: 8px solid black;
+    border-radius: 20px;
+    height: 600px;
+    width: 300px;
+    background-color: #ccefff;
+    box-shadow: 0 19px 38px rgba(0, 0,0, 
+    .3), 0 15px 12px rgba(0, 0, 0, .22)
+}
+
+.layer-1{
+    position: absolute;
+    z-index: 1;
+    height: 450px;
+    width: 80px;
+    background-color: yellow;
+    bottom: 0;
+    right: 60px;
+}
+.layer-2{
+    position: absolute;
+    z-index: 2;
+    height: 450px;
+    width: 80px;
+    background-color: rgb(255, 166, 0);
+    bottom: 0;
+    left: 60px;
+}
+.layer-3{
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right:0;
+    margin: 0 auto;
+    width: 220px;
+    height: 400px;
+    background-color: wheat;
+    bottom: 0;
+}
+.layer-4{
+    position: absolute;
+    z-index: 4; 
+    height:350px;
+    width: 80px;
+    background-color: rgb(115, 255, 0);
+    bottom: 0;
+    left:20px;
+}
+.layer-5{
+    position: absolute;
+    z-index: 5;
+    height:350px;
+    width: 80px;
+    background-color: rgb(0, 255, 242);
+    bottom: 0;
+    left:120px;
+}
+.layer-6{
+    position: absolute;
+    z-index: 6;  
+    width: 220px;
+    height: 300px;
+    left: 0;
+    background-color: wheat;
+    bottom: 0;
+    box-shadow: 0 19px 38px rgba(0, 0,0, 
+    .3), 0 15px 12px rgba(0, 0, 0, .22)
+}
+.layer-7{
+    position: absolute;
+    z-index: 7;
+    height:250px;
+    width: 80px;
+    background-color: rgb(0, 162, 255);
+    bottom: 0;
+    right:15px;
+}
+.layer-8{
+    position: absolute;
+    z-index: 8;
+    width: 150px;
+    height: 200px;
+    right: 0;
+    background-color: wheat;
+    bottom: 0;
+    box-shadow: 0 19px 38px rgba(0, 0,0, 
+    .3), 0 15px 12px rgba(0, 0, 0, .22)
+}
+.layer-9{
+    position: absolute;
+    z-index: 9;
+    height: 100px;
+    width: 100px;
+    left: 0;
+    background-color: chocolate;
+    bottom:0;
+}
+.layer-10{
+    position: absolute;
+    z-index: 10;
+    height: 100px;
+    width: 100px;
+    right: 0;
+    background-color: chocolate;
+    bottom:0;
+}
